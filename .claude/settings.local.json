@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:local.frepouch.com)",
+      "Bash(sudo chown -R alexander /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks)",
+      "Bash(chmod u+w /opt/homebrew /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew/locks)",
+      "Bash(brew install poppler)",
+      "Bash(pip3 install PyMuPDF)",
+      "Bash(python3:*)",
+      "Bash(pip3 install python-pptx)",
+      "Bash(# Check if FuturaPassata or similar fonts are available fc-list)",
+      "WebFetch(domain:docs.google.com)",
+      "Bash(python build_plan.py)",
+      "WebSearch",
+      "WebFetch(domain:kindpatches.com)",
+      "WebFetch(domain:www.reddit.com)",
+      "WebFetch(domain:www.sharethestruggle.org)",
+      "WebFetch(domain:persistentsomaticsymptoms.com)",
+      "WebFetch(domain:forums.beyondblue.org.au)",
+      "WebFetch(domain:www.longecity.org)",
+      "WebFetch(domain:psicologiaya.com)",
+      "WebFetch(domain:calmripple.com)",
+      "WebFetch(domain:old.reddit.com)"
+    ]
+  }
+}
